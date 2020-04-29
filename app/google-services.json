@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "385507424853",
+    "firebase_url": "https://dominikasilownia.firebaseio.com",
+    "project_id": "dominikasilownia",
+    "storage_bucket": "dominikasilownia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385507424853:android:9b537403cc3f9ff9",
+        "android_client_info": {
+          "package_name": "com.example.user.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385507424853-l7bineas3cpq6p455subaa24tup4na7d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.myapplication",
+            "certificate_hash": "ad52a367754ce3b527d7d74c93cb25277c8a69ee"
+          }
+        },
+        {
+          "client_id": "385507424853-f4668qhadrhnp82pkdv2cf144erbibij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6PI99GbmaLni0TC7l-TX845LCxh3ZmI0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385507424853-f4668qhadrhnp82pkdv2cf144erbibij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

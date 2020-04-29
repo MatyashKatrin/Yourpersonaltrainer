@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:id="@+id/rekordId"
+        android:layout_marginLeft="18dp"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Date"
+        android:textSize="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/rekordDate"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Distance"
+        android:textSize="24dp"
+        android:layout_marginRight="18dp"
+        android:layout_below="@+id/rekordDate"
+        android:layout_marginTop="6dp"
+        android:id="@+id/rekordDistance"/>
+
+    <RelativeLayout
+        android:id="@+id/widget38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="108px"
+        android:layout_y="87px"
+        android:layout_below="@+id/rekordDistance"
+        android:layout_marginTop="12dp"
+        >
+        <View android:id="@+id/separator"
+            android:background="#000000"
+            android:layout_width = "fill_parent"
+            android:layout_height="1dip"
+            android:layout_centerVertical ="true"
+            android:layout_alignParentTop="true"/>
+        <ImageView
+            android:id="@+id/widget39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/separator"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
